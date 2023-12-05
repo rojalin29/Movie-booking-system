@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header>
+          <h1>BookYourShow</h1>
+      </header>
+      <nav>
+          <ul>
+        		<li><a href="homepage.jsp">Home</a></li>
+        		<li><a href="about.html">About Us</a></li>
+        		<li><a href="movies.jsp">Movies</a></li>
+       			<li><a href="login.jsp">Login</a></li>
+        		<li><a href="contact.jsp">Contact Us</a></li>
+      
+          </ul>
+      </nav>
+	<h1 style="text-align:center">Update Password</h1>
+	<form action="fgpass.jsp" method="post">
+	<label for="username">Username:</label>
+		<input type="username" name="username" required><br><br>
+		<label for="id">new password:</label>
+		<input type="password" name="password" required><br><br>
+		
+		<label for="username">confirm password:</label>
+		<input type="password" name="password2" required><br><br>
+		<input type="submit" value="Update">
+	</form>
+</body>
+</html>

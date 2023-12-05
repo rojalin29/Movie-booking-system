@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: #ccc;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+main h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+main a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+main a:hover {
+    background-color: #555;
+}
+.johnwick{
+	display:flex;
+	flex-direction:column;
+}
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+}
+.second-box {
+    margin: 15px 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondBox-1 {
+    width: 50%;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.secondBox-1 iframe{
+    width: 90%;
+}
+
+.secondBox-2 {
+    width: 50%;
+    margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AdminLogin</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header>
+          <h1>BookYourShow</h1>
+      </header>
+      <nav>
+          <ul>
+        		<li><a href="homepage.jsp">Home</a></li>
+        		<li><a href="about.html">About Us</a></li>
+        		<li><a href="movies.jsp">Movies</a></li>
+       			<li><a href="login.jsp">Login</a></li>
+        		<li><a href="contact.jsp">Contact Us</a></li>
+      
+          </ul>
+      </nav>
+<h1 style="text-align:center">Admin Login</h1>
+	<form action="adminlogin.jsp" method="post">
+	<label for="username">User Name:</label>
+		<input type="text" name="username" required><br><br>
+        <label for="email">Password:</label>
+		<input type="password" name="pass" required><br><br>
+		<input type="submit" value="login">
+	</form>
+</body>
+</html>
